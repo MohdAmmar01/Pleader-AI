@@ -1,0 +1,22 @@
+.allchats{
+    overflow: auto;
+    color: white;
+    min-height: 74vh;
+}
+
+.chat{
+    padding: 10px;
+    border: 1px solid white;
+    margin: 10px;
+    display: flex;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.chat .info{
+    margin: 10px;
+}
+.chat .date{
+    align-self: center;
+    margin-left: auto;
+    color: #f4f4f4;
+}

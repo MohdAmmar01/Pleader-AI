@@ -1,0 +1,33 @@
+{
+  "name": "apis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Moiz",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1291.0",
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cloudinary": "^1.33.0",
+    "cors": "^2.8.5",
+    "cron": "^2.1.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "limit": "^0.0.1",
+    "mongoose": "^6.8.3",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.9.3",
+    "otp-generator": "^4.0.1",
+    "razorpay": "^2.8.4",
+    "twilio": "^4.10.0"
+  }
+}
